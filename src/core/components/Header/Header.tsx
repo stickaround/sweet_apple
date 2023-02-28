@@ -52,7 +52,7 @@ function Header() {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar component='nav' sx={{ zIndex: 0 }}>
+      <AppBar component='nav' sx={{ zIndex: 999 }}>
         <Toolbar>
           <IconButton
             color='inherit'
