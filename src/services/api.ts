@@ -9,3 +9,6 @@ export const api = axios.create({
 });
 
 export const getProducts = () => api.get<Product[]>('/products');
+
+export const getProductDetail = (id: string | undefined) =>
+  api.get<Product>(`/products/${id}`);
